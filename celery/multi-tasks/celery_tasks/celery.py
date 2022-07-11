@@ -22,12 +22,12 @@ cel.conf.beat_schedule = {
         # 'schedule': crontab(minute="*/1"),
         'schedule': timedelta(seconds=10),
         # 传递参数
-        'args': ('张三',)
+        'acknowledge_confirm': ('张三',)
     },
     # 'add-every-12-seconds': {
     #     'task': 'celery_tasks.task01.send_email',
     #     每年4月11号，8点42分执行
     #     'schedule': crontab(minute=42, hour=8, day_of_month=11, month_of_year=4),
-    #     'args': ('张三',)
+    #     'acknowledge_confirm': ('张三',)
     # },
 }

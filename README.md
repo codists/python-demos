@@ -1,1 +1,3 @@
 # python-demos
+- celery
+- rabbitmq
